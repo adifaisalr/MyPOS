@@ -82,9 +82,9 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
         // Get element from your dataset at this position and replace the
         // contents of the view with that element
-        viewHolder.getNameTV().setText(localDataSet.get(position).getName());
-        viewHolder.getCategoryTV().setText(localDataSet.get(position).getCategory());
-        viewHolder.getPriceTV().setText(String.valueOf(localDataSet.get(position).getPrice()));
+        viewHolder.getNameTV().setText(localDataSet.get(position).name());
+        viewHolder.getCategoryTV().setText(localDataSet.get(position).category().getName());
+        viewHolder.getPriceTV().setText(String.valueOf(localDataSet.get(position).price()));
     }
 
     // Return the size of your dataset (invoked by the layout manager)

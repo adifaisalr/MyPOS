@@ -48,4 +48,11 @@
     <string name="menu_name">Menu Name</string>
     <string name="category">Category</string>
     <string name="price">Price</string>
+    <string name="filter_by_category">Filter by category :</string>
+
+    <string-array name="categories">
+        <item>All</item>
+        <item>Food</item>
+        <item>Beverage</item>
+    </string-array>
 </resources>
